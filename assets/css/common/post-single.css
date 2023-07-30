@@ -171,6 +171,8 @@
 
 .post-content .highlight pre {
     margin: 0;
+    /* something is adding inline styles? unsure what, this is to override */
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .post-content .highlighttable {
