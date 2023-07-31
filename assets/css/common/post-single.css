@@ -404,6 +404,7 @@ img.in-text {
 }
 
 #comments_wrapper {
+    color: var(--primary);
     background-color: var(--theme);
     padding: var(--content-gap) var(--content-gap) 0;
     border-radius: var(--radius);
