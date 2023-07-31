@@ -401,10 +401,10 @@ img.in-text {
     margin: auto;
 }
 
-#comments_wrapper {
+.comments {
     color: var(--primary);
     background-color: var(--theme);
+    border-radius: 32px;
     padding: var(--content-gap) var(--content-gap) 0;
-    border-radius: var(--radius);
-    margin-top: var(--content-gap);
+    margin: var(--content-gap) calc(var(--gap) * -1);
 }
