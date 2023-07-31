@@ -402,3 +402,11 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+#disqus_thread {
+    color: rgb(218, 218, 219);
+    background-color: rgb(29, 30, 32);
+    padding: 24px 24px 0;
+    border-radius: var(--radius);
+    margin-top: 24px;
+}
