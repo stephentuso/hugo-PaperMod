@@ -1,4 +1,4 @@
-/* from reset */
+from reset
 ::-webkit-scrollbar-track {
     background: 0 0;
 }
@@ -31,7 +31,7 @@
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
-    border: 2px solid var(--hljs-bg);
+    border: 0px;
     background: rgb(113, 113, 117);
 }
 

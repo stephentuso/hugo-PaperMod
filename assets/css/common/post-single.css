@@ -156,7 +156,6 @@
 
 .post-content .highlight:not(table) {
     margin: 10px auto;
-    background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     direction: ltr;
 }
@@ -171,8 +170,7 @@
 
 .post-content .highlight pre {
     margin: 0;
-    /* something is adding inline styles? unsure what, this is to override */
-    background-color: rgba(0, 0, 0, 0) !important;
+    border-radius: var(--radius);
 }
 
 .post-content .highlighttable {
@@ -197,19 +195,19 @@
     padding: 4px 6px;
     font-size: 0.78em;
     line-height: 1.5;
-    background: var(--code-bg);
-    border-radius: 2px;
+    background: var(--border);
+    border-radius: 4px;
 }
 
 .post-content pre code {
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: rgb(213, 213, 214);
-    background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;
+    border: 1px solid var(--border);
+    background-color: transparent;
 }
 
 .post-content blockquote {
